@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#vis {
+  padding-top: 2rem;
+}
+
+
+rect {
+  fill: black;
+}
+
+.doping {
+  fill: red;
+}
+
+.red {
+  color:red;
+}
+
+#tooltip {
+  height: 40px;
+  width: 200px;
+  visibility: visible;
+  position: absolute;
+  text-align: center;
+  color: black;
+  z-index: 10;
+  top: 170px;
+}
